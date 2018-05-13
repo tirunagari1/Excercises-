@@ -50,29 +50,29 @@ var reset = function reset() {
   console.log('reset');
 };
 var templateTwo = React.createElement(
-  'div',
-  null,
-  React.createElement(
-    'h1',
+    'div',
     null,
-    'Count: ',
-    count
-  ),
-  React.createElement(
-    'button',
-    { onClick: addOne },
-    '+1'
-  ),
-  React.createElement(
-    'button',
-    { onClick: minusOne },
-    '-1'
-  ),
-  React.createElement(
-    'button',
-    { onClick: reset },
-    'reset'
-  )
+    React.createElement(
+        'h1',
+        null,
+        'Count: ',
+        count
+    ),
+    React.createElement(
+        'button',
+        { onClick: addOne },
+        '+1'
+    ),
+    React.createElement(
+        'button',
+        { onClick: minusOne },
+        '-1'
+    ),
+    React.createElement(
+        'button',
+        { onClick: reset },
+        'reset'
+    )
 );
 
 var appRoot = document.getElementById('app');
