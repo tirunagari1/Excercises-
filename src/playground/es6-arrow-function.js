@@ -21,14 +21,14 @@ const app = {
     subtitle: 'Tirunagari'
     }
 
-   var template = (
+/*    var template = (
     <div>
     <h1>{user.title}</h1>
     <p>{user.subtitle}</p>
     </div>
-);
+); */
 
-
+/* 
 var template1 =(
     <div>
         <h1>Srujan Kumar Tirunagari</h1>
@@ -48,6 +48,6 @@ var template1 =(
     <p>Location</p>
     </div>
   );
-
+ */
 var appRoot = document.getElementById('app');
 ReactDOM.render(template, appRoot);
